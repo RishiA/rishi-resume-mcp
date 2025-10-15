@@ -352,10 +352,8 @@ def get_analytics_summary() -> Dict[str, Any]:
 
 if __name__ == "__main__":
     # Run the server
-    import asyncio
-    from mcp.server.stdio import stdio_server
-
     print("Starting Rishi's Resume MCP Server...")
     print("Server ready to answer questions about Rishi's qualifications for AI PM roles!")
 
-    asyncio.run(stdio_server(mcp))
+    # FastMCP handles the async setup internally
+    mcp.run()
