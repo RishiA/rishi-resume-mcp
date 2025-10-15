@@ -1,171 +1,85 @@
-# 🚀 Rishi's Interactive Resume MCP Server
+# Resume as an MCP Server
 
-An innovative, AI-powered resume server built with the Model Context Protocol (MCP) - demonstrating technical depth and product thinking for AI PM roles.
+I turned my resume into an API. Here's why that's interesting.
 
-## 🎯 Why This Approach?
+## The Problem
 
-As an AI Product Manager candidate, I built this to showcase:
-- **Technical Understanding**: Hands-on implementation of cutting-edge AI infrastructure (MCP)
-- **Product Thinking**: Interactive > static PDF, with analytics and evaluation metrics
-- **AI/ML Expertise**: Practical demonstration of my experience building AI-powered systems
-- **User-Centric Design**: Multiple deployment options for easy access by hiring managers
+Resumes are terrible. They're PDFs that sit in ATS systems, parsed by regex that breaks on emdashes. Hiring managers spend 7 seconds scanning them. Those brave enough to read further play keyword bingo, hoping "ML experience" means something more than "I watched a YouTube video once."
 
-## 🔥 Key Features
+Meanwhile, every interesting conversation about my background starts with "Tell me more about..." followed by 20 minutes of context that should have been discoverable in the first place.
 
-### 📊 Interactive Querying
-- Ask natural language questions about my experience
-- Get specific details about AI/ML projects, revenue impact, and technical skills
-- Search by company, skill, or achievement
+## The Solution
 
-### 🤖 AI/ML Highlights
-- **92% accuracy ML-powered underwriting model** at Justworks
-- Champion of AI adoption with Claude Code/Cursor implementation
-- $29M+ in quantifiable revenue impact across roles
+Model Context Protocol (MCP) lets LLMs talk to external systems. I built a server that makes my resume queryable through natural language. Not a chatbot wrapper. Not a RAG tutorial. An actual protocol implementation with measurable retrieval accuracy.
 
-### 📈 Built-in Analytics
-- Track which sections get queried most
-- Response time metrics
-- Usage patterns to understand what interests viewers
-
-### ✅ Evaluation Suite
-- 13 pre-built test cases with expected outcomes
-- Performance metrics and scoring
-- Validates server accuracy and completeness
-
-## 🚀 Quick Start (30 Seconds!)
-
-### Option 1: Docker (Recommended)
 ```bash
-# Pull and run with one command
-docker run -p 8000:8000 rishiathanikar/resume-mcp
-
-# Or build locally
-docker build -t rishi-resume .
-docker run -p 8000:8000 rishi-resume
+git clone https://github.com/RishiA/rishi-resume-mcp.git
+cd rishi-resume-mcp
+python quickstart.py  # Working demo in 12 seconds
 ```
 
-### Option 2: Python
-```bash
-# Install dependencies
-pip install -r requirements.txt
+## What This Actually Does
 
-# Run the server
-python server.py
+Ask: **"What ML models has Rishi built?"**
+
+Returns:
+```
+• Built ML-powered underwriting model with 92% accuracy [experience_justworks]
+• Reduced manual underwriting workload by 85% [experience_justworks]
+• Champion of AI adoption using Claude Code, Cursor [skills_ai_ml]
 ```
 
-### Option 3: Using UV (Fast Python package manager)
-```bash
-# Install uv if needed
-curl -LsSf https://astral.sh/uv/install.sh | sh
+Notice the citations. Every claim traces back to a specific role. No hallucinations. No creative writing. Just structured data retrieval with provenance.
 
-# Run directly
-uv run server.py
-```
+## The Engineering
 
-## 💭 Sample Questions to Try
+**Evaluation Suite**: 25 hiring-manager questions with expected retrieval patterns. Not "does it feel right" but "does it retrieve the correct section in the top 3 results." Current performance:
 
-### AI/ML Experience
-- "What AI models has Rishi built and deployed?"
-- "Tell me about the underwriting model at Justworks"
-- "How has Rishi championed AI adoption?"
+- Retrieval@1: 84% (target: 90%)
+- Retrieval@3: 96% (target: 98%)
+- P50 latency: 47ms
+- Zero network calls (local-only)
 
-### Business Impact
-- "What's Rishi's track record for revenue generation?"
-- "Show me examples of cost savings Rishi has delivered"
-- "What operational efficiency improvements has Rishi made?"
+**Security**: Automated PII detection strips phone numbers. No SSNs. No accidents. Run `./scripts/verify_security.sh` for a 9-point security audit. This matters because one leaked phone number becomes 50 recruiting calls.
 
-### Product Leadership
-- "What 0→1 products has Rishi launched?"
-- "Tell me about Rishi's experience with platform migrations"
-- "How many users have Rishi's products served?"
+**Answer Format**: Bullets. Citations. 700 character limit. Why? Because hiring managers are busy people who appreciate density and verifiability.
 
-### Domain Expertise
-- "What's Rishi's experience with regulated industries?"
-- "Tell me about Rishi's fintech and insurance experience"
-- "Has Rishi worked with compliance systems?"
+## The Product Insight
 
-## 📁 Project Structure
+Every PM talks about "data-driven decisions" and "metrics-oriented thinking." This demonstrates it. The evaluation harness alone shows more rigorous thinking about quality than most production systems.
 
-```
-rishi-resume-mcp/
-├── server.py              # Main MCP server with resume querying
-├── resume_data.json       # Structured resume data
-├── resume.md             # Markdown version for readability
-├── evaluations.py        # Test suite with 13 test cases
-├── requirements.txt      # Python dependencies
-├── Dockerfile           # Container configuration
-├── demo/
-│   ├── sample_questions.json   # Categorized questions
-│   └── sample_questions.md     # Questions in markdown
-└── config/
-    └── claude_desktop_config.json  # Claude Desktop integration
-```
+More interesting: this pattern generalizes. Team pages. Documentation. Any structured information that people query repeatedly. The same architecture that powers my resume could power your company's knowledge base.
 
-## 🔧 Available Tools & Resources
+## Business Value
 
-### Resources (Data Access)
-- `resume://summary` - Professional summary
-- `resume://experience` - Complete work history
-- `resume://skills/{category}` - Skills by category
-- `resume://education` - Educational background
-- `resume://contact` - Contact information
+I shipped $XX M in revenue across three companies. Led 92% account migrations with zero downtime. Built systems handling 50-state compliance.
 
-### Tools (Interactive Queries)
-- `search_experience(query)` - Search work history
-- `get_ai_ml_experience()` - All AI/ML related work
-- `get_metrics_and_impact()` - Quantifiable achievements
-- `search_by_skill(skill)` - Find experiences by skill
-- `get_company_details(company)` - Detailed role information
-- `calculate_total_experience()` - Career progression analysis
+But you already knew that if you ran the query.
 
-### Prompts (AI-Generated Responses)
-- `why_great_fit_for_ai_pm()` - Compelling fit analysis
-- `interview_question(topic)` - STAR format responses
-- `compare_to_job_description(requirements)` - Role matching
-- `generate_cover_letter_points(company, role)` - Tailored talking points
+What you might not know: I approach product problems like this resume server. Identify the core issue (discoverability). Build something measurable (retrieval metrics). Ship it clean (no PII leaks). Then instrument everything.
 
-## 📊 Evaluation Metrics
-
-Run the evaluation suite to see server performance:
+## Try It Yourself
 
 ```python
-python evaluations.py
+# The interesting queries
+"What's Rishi's experience with regulated industries?"
+"Evidence of platform migrations at scale?"
+"How does he measure success?"
 ```
 
-Expected performance:
-- **Pass Rate**: >85% on all test cases
-- **Response Time**: <100ms average
-- **Category Coverage**: All resume sections queryable
-- **Keyword Accuracy**: >70% match rate
+Each returns structured data with citations. No fluff. No storytelling. Just facts with pointers to evidence.
 
-## 🌐 Deployment Options
+## The Meta Point
 
-### For Sharing with Hiring Managers
+This isn't really about my resume. It's about taking something broken (traditional CVs), applying engineering thinking (MCP + evaluation metrics), and shipping something better.
 
-1. **Replit**: One-click deployment with shareable link
-2. **Railway/Render**: Always-on professional hosting
-3. **GitHub Codespaces**: Run directly in browser
-4. **Local Docker**: Simple container deployment
-
-## 🎯 What Makes Me Unique for AI PM Roles
-
-1. **Hands-on AI/ML Experience**: Built and deployed production ML models with measurable impact
-2. **Regulated Industry Expertise**: 10+ years in fintech/insurance with compliance systems
-3. **Proven Scale**: Products serving 300K+ MAU, $20M+ payment volume
-4. **Technical Depth**: CS degree + hands-on coding with modern AI tools
-5. **Business Impact**: $29M+ in revenue generation and optimization
-6. **Innovation Leader**: 0→1 products, platform migrations, AI adoption champion
-
-## 📬 Contact
-
-**Rishi Athanikar**
-- LinkedIn: [linkedin.com/in/rishiathanikar](https://linkedin.com/in/rishiathanikar)
-- Website: [rishiathanikar.com](https://www.rishiathanikar.com)
-
-## 🔒 Privacy Note
-
-This server contains publicly available resume information. No sensitive data is included.
+That's what I do for a living. This server is just the proof.
 
 ---
 
-*Built with MCP (Model Context Protocol) - Demonstrating technical innovation for AI Product Management*
+**Rishi Athanikar**
+[LinkedIn](https://linkedin.com/in/rishiathanikar) | [Website](https://www.rishiathanikar.com)
+
+*P.S. - Yes, this is overkill for a resume. That's the point. The best demonstration of product thinking is a product that demonstrates product thinking.*
+
+*Confession: This README is deeply influenced by patio11's (Patrick McKenzie) writings.*
