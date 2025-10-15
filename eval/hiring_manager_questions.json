@@ -1,0 +1,208 @@
+{
+  "questions": [
+    {
+      "id": "ai_skills",
+      "question": "What are Rishi's AI skills?",
+      "expected_sections": ["experience_justworks", "skills_ai_ml", "summary"],
+      "expected_keywords": ["ML-powered", "92%", "underwriting", "Claude Code", "AI adoption"],
+      "category": "technical"
+    },
+    {
+      "id": "career_highlights",
+      "question": "What are his career highlights?",
+      "expected_sections": ["experience_justworks", "experience_stash", "experience_casper", "experience_peets"],
+      "expected_keywords": ["$5M", "$4M", "$20M", "92%", "300K MAU"],
+      "category": "overview"
+    },
+    {
+      "id": "gaps_weaknesses",
+      "question": "What areas is he weak at or has gaps in?",
+      "expected_sections": ["summary", "skills"],
+      "expected_keywords": [],
+      "category": "assessment",
+      "note": "Should acknowledge what's NOT in resume"
+    },
+    {
+      "id": "pm_sweet_spot",
+      "question": "What is his sweet spot as a Product Manager?",
+      "expected_sections": ["summary", "experience_justworks", "skills"],
+      "expected_keywords": ["AI-enabled", "regulated", "fintech", "automation", "platform"],
+      "category": "fit"
+    },
+    {
+      "id": "people_management",
+      "question": "Has he managed people?",
+      "expected_sections": ["summary", "experience_justworks"],
+      "expected_keywords": ["coaching", "mentoring", "training"],
+      "category": "leadership"
+    },
+    {
+      "id": "efficiency_improvements",
+      "question": "Quantify operational efficiency improvements delivered",
+      "expected_sections": ["experience_justworks", "key_metrics"],
+      "expected_keywords": ["85%", "90%", "60%", "95%", "reduction"],
+      "category": "impact"
+    },
+    {
+      "id": "risk_pricing",
+      "question": "Evidence of risk-based pricing or underwriting",
+      "expected_sections": ["experience_justworks"],
+      "expected_keywords": ["underwriting", "risk", "92%", "risk-based pricing", "risk assessment"],
+      "category": "domain"
+    },
+    {
+      "id": "migrations",
+      "question": "Which cross-org migrations did he lead?",
+      "expected_sections": ["experience_stash", "experience_peets"],
+      "expected_keywords": ["92% accounts", "1.5M users", "migration", "zero disruption"],
+      "category": "execution"
+    },
+    {
+      "id": "regulated_work",
+      "question": "Examples of regulated domain work (insurance/fintech)",
+      "expected_sections": ["experience_justworks", "experience_stash", "skills_domain"],
+      "expected_keywords": ["compliance", "fintech", "insurance", "50 state", "PEO"],
+      "category": "domain"
+    },
+    {
+      "id": "platform_infra",
+      "question": "Platformization or shared infra he introduced",
+      "expected_sections": ["experience_justworks", "experience_stash"],
+      "expected_keywords": ["platform", "infrastructure", "proprietary banking", "financial service"],
+      "category": "technical"
+    },
+    {
+      "id": "revenue_impact",
+      "question": "Top-line or margin impact numbers",
+      "expected_sections": ["experience_justworks", "experience_casper", "key_metrics"],
+      "expected_keywords": ["$5M", "$4M", "$20M", "8% margins", "revenue"],
+      "category": "impact"
+    },
+    {
+      "id": "ai_mentoring",
+      "question": "Evidence of coaching/mentoring others in AI/SQL",
+      "expected_sections": ["experience_justworks", "summary"],
+      "expected_keywords": ["mentoring", "training", "fellow PMs", "AI-assisted", "coaching"],
+      "category": "leadership"
+    },
+    {
+      "id": "vendor_integrations",
+      "question": "Vendor integrations he owned end-to-end",
+      "expected_sections": ["experience_stash", "experience_casper"],
+      "expected_keywords": ["Affirm", "Direct Deposit", "third-party", "vendor", "integration"],
+      "category": "execution"
+    },
+    {
+      "id": "post_launch_metrics",
+      "question": "Post-launch metrics he tracks for underwriting/compliance",
+      "expected_sections": ["experience_justworks"],
+      "expected_keywords": ["92% accuracy", ">99% compliance", "risk-adjusted margins"],
+      "category": "metrics"
+    },
+    {
+      "id": "scale_rollout",
+      "question": "Largest scale state/geo rollout he managed",
+      "expected_sections": ["experience_justworks", "experience_casper"],
+      "expected_keywords": ["50 state", "72 stores", "jurisdictions"],
+      "category": "scale"
+    },
+    {
+      "id": "human_in_loop",
+      "question": "Examples of human-in-the-loop designs",
+      "expected_sections": ["experience_justworks"],
+      "expected_keywords": ["human-in-loop", "edge cases", "manual"],
+      "category": "ai_design"
+    },
+    {
+      "id": "support_reduction",
+      "question": "How he reduces support volume with workflow changes",
+      "expected_sections": ["experience_stash"],
+      "expected_keywords": ["60% reduction", "CX calls", "95% reduction", "dispute resolution"],
+      "category": "operations"
+    },
+    {
+      "id": "zero_disruption",
+      "question": "Evidence of zero-disruption migrations",
+      "expected_sections": ["experience_stash"],
+      "expected_keywords": ["zero service disruption", "92% accounts", "migration"],
+      "category": "execution"
+    },
+    {
+      "id": "retail_revenue",
+      "question": "Retail/omnichannel revenue impact",
+      "expected_sections": ["experience_casper"],
+      "expected_keywords": ["$4M", "retail", "72 stores", "POS", "Affirm"],
+      "category": "revenue"
+    },
+    {
+      "id": "mobile_growth",
+      "question": "Mobile product growth outcomes",
+      "expected_sections": ["experience_peets"],
+      "expected_keywords": ["300K MAU", "$20M", "iOS", "Android", "mobile"],
+      "category": "growth"
+    },
+    {
+      "id": "risk_diversification",
+      "question": "Risk diversification and entity assignment outcomes",
+      "expected_sections": ["experience_justworks"],
+      "expected_keywords": ["risk diversification", "PEO entities", "8% margins", "unemployment insurance"],
+      "category": "risk"
+    },
+    {
+      "id": "identity_controls",
+      "question": "KYB or identity controls integrated",
+      "expected_sections": ["experience_peets"],
+      "expected_keywords": ["Identity Management", "1.5M accounts", "login"],
+      "category": "security"
+    },
+    {
+      "id": "automation_scale",
+      "question": "Automation at 50-state scale and compliance results",
+      "expected_sections": ["experience_justworks"],
+      "expected_keywords": ["50 state", "automated compliance", ">99%", "90% reduction"],
+      "category": "automation"
+    },
+    {
+      "id": "data_fluency",
+      "question": "Evidence of SQL or data fluency",
+      "expected_sections": ["experience_justworks", "skills_analytics"],
+      "expected_keywords": ["SQL", "data", "analytics", "Looker", "Amplitude"],
+      "category": "technical"
+    },
+    {
+      "id": "publications",
+      "question": "Any publications/OSS/patents?",
+      "expected_sections": ["summary"],
+      "expected_keywords": [],
+      "category": "thought_leadership",
+      "note": "Likely returns 'Not evidenced in resume'"
+    }
+  ],
+  "evaluation_criteria": {
+    "retrieval_at_1": 0.9,
+    "retrieval_at_3": 0.98,
+    "p50_latency_ms": 150,
+    "p90_latency_ms": 500,
+    "min_citations_per_answer": 1
+  },
+  "categories": {
+    "technical": "Technical skills and capabilities",
+    "overview": "Career overview and highlights",
+    "assessment": "Strengths and gaps analysis",
+    "fit": "Role fit and positioning",
+    "leadership": "Leadership and people management",
+    "impact": "Business impact and results",
+    "domain": "Domain expertise",
+    "execution": "Execution and delivery",
+    "metrics": "Metrics and measurement",
+    "scale": "Scale and complexity",
+    "ai_design": "AI/ML design patterns",
+    "operations": "Operational excellence",
+    "revenue": "Revenue generation",
+    "growth": "Growth and user acquisition",
+    "risk": "Risk management",
+    "security": "Security and compliance",
+    "automation": "Automation and efficiency",
+    "thought_leadership": "External visibility"
+  }
+}
