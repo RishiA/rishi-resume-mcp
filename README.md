@@ -72,6 +72,11 @@ What you might not know: I approach product problems like this resume server. Id
 
 Each returns structured data with citations. No fluff. No storytelling. Just facts with pointers to evidence.
 
+### Setup Guides
+
+- **[Claude Desktop](SETUP_CLAUDE_DESKTOP.md)** - Native MCP integration
+- **[Cursor IDE](SETUP_CURSOR.md)** - Multiple integration options
+
 ## The Meta Point
 
 This isn't really about my resume. It's about taking something broken (traditional CVs), applying engineering thinking (MCP + evaluation metrics), and shipping something better.
