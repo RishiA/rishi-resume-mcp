@@ -70,10 +70,8 @@ def get_contact() -> str:
     personal = RESUME_DATA["personal"]
     return f"""**Contact Information:**
 Name: {personal['name']}
-Email: {personal['email']}
-Phone: {personal['phone']}
 LinkedIn: {personal['linkedin']}
-Website: {personal['website']}"""
+Website: {personal.get('website', '')}"""
 
 
 # === TOOLS ===

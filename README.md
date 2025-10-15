@@ -159,10 +159,8 @@ Expected performance:
 ## 📬 Contact
 
 **Rishi Athanikar**
-- Email: rishi@rishiathanikar.com
 - LinkedIn: [linkedin.com/in/rishiathanikar](https://linkedin.com/in/rishiathanikar)
 - Website: [rishiathanikar.com](https://www.rishiathanikar.com)
-- Phone: (513) 388-1735
 
 ## 🔒 Privacy Note
 

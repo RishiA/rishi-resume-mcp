@@ -1,7 +1,5 @@
 # RISHI ATHANIKAR
 
-**Email:** rishi@rishiathanikar.com
-**Phone:** (513) 388-1735
 **LinkedIn:** [linkedin.com/in/rishiathanikar](https://linkedin.com/in/rishiathanikar)
 **Website:** [www.rishiathanikar.com](https://www.rishiathanikar.com)
 
