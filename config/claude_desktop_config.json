@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "rishi-resume": {
+      "command": "python",
+      "args": ["/path/to/rishi-resume-mcp/server.py"],
+      "env": {},
+      "name": "Rishi's Resume Server",
+      "description": "Interactive resume server for Rishi Athanikar - AI PM candidate"
+    }
+  }
+}

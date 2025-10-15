@@ -1,0 +1,234 @@
+{
+  "personal": {
+    "name": "Rishi Athanikar",
+    "email": "rishi@rishiathanikar.com",
+    "phone": "(513) 388-1735",
+    "linkedin": "https://linkedin.com/in/rishiathanikar",
+    "website": "https://www.rishiathanikar.com"
+  },
+  "summary": "Product leader with 10+ years delivering B2B SaaS, consumer, and AI-enabled platforms in regulated fintech and insurance operations. Deep expertise in ML-powered automation, risk assessment systems, and end-to-end product lifecycle management. Currently leading underwriting model development and championing AI adoption at Justworks. Proven track record of coaching product analysts and collaborating across cross-functional teams to drive innovation, operational efficiency, and revenue growth in complex, multi-stakeholder environments.",
+  "experience": [
+    {
+      "title": "Senior Product Manager",
+      "company": "Justworks",
+      "location": "New York, NY",
+      "duration": "05/2023 - present",
+      "achievements": [
+        {
+          "description": "Drove AI-enabled platform transformation with ML-powered underwriting model",
+          "metrics": ["92% automated risk assessment accuracy", "85% manual workload reduction"],
+          "tags": ["AI/ML", "automation", "risk-assessment"]
+        },
+        {
+          "description": "Architected risk diversification strategy across multiple PEO entities",
+          "metrics": ["8% increase in risk-adjusted margins"],
+          "tags": ["risk-management", "strategy"]
+        },
+        {
+          "description": "Shipped automated compliance system across 50 state jurisdictions",
+          "metrics": [">99% compliance rate", "90% operational overhead reduction"],
+          "tags": ["compliance", "automation", "regulatory"]
+        },
+        {
+          "description": "Redesigned financial service infrastructure",
+          "metrics": ["$5M in new revenue"],
+          "tags": ["revenue", "infrastructure"]
+        },
+        {
+          "description": "Automated NetSuite GL routing",
+          "metrics": ["20 hours saved per quarter"],
+          "tags": ["automation", "efficiency"]
+        },
+        {
+          "description": "Championing AI adoption across organization",
+          "metrics": ["Claude Code/Cursor implementation", "LLM content discoverability"],
+          "tags": ["AI", "leadership", "innovation"]
+        }
+      ]
+    },
+    {
+      "title": "Lead Product Manager",
+      "company": "Stash Financial",
+      "location": "New York, NY",
+      "duration": "07/2021 - 05/2023",
+      "achievements": [
+        {
+          "description": "Led migration of 92% active accounts to proprietary banking platform",
+          "metrics": ["Zero service disruption"],
+          "tags": ["migration", "platform", "banking"]
+        },
+        {
+          "description": "Shipped in-app transactional dispute resolution workflow",
+          "metrics": ["60% reduction in CX calls", "14 days to 3 days resolution time"],
+          "tags": ["customer-experience", "efficiency"]
+        },
+        {
+          "description": "Launched optimized Direct Deposit solution",
+          "metrics": ["7% increase in monthly deposits", "95% reduction in CX contacts"],
+          "tags": ["payments", "customer-experience"]
+        },
+        {
+          "description": "Redesigned new bank account onboarding",
+          "metrics": ["14% conversion increase", "150% increase in first deposit ($43)"],
+          "tags": ["onboarding", "conversion", "growth"]
+        }
+      ]
+    },
+    {
+      "title": "Senior Product Manager, Retail & Digital Experience",
+      "company": "Casper Sleep, Inc.",
+      "location": "New York, NY",
+      "duration": "10/2019 - 07/2021",
+      "achievements": [
+        {
+          "description": "Launched custom Point-of-Sale to 72 stores",
+          "metrics": ["450+ retail employees adopted in 1 week"],
+          "tags": ["retail", "POS", "launch"]
+        },
+        {
+          "description": "Launched POS integration with Affirm for financing",
+          "metrics": ["$4M in incremental retail revenue"],
+          "tags": ["partnerships", "revenue", "financing"]
+        },
+        {
+          "description": "Led 0→1 product development for connected devices (IoT)",
+          "metrics": ["New revenue stream"],
+          "tags": ["IoT", "innovation", "hardware"]
+        }
+      ]
+    },
+    {
+      "title": "Product Manager, E-commerce and Mobile",
+      "company": "Peet's Coffee & Tea",
+      "location": "San Francisco, CA",
+      "duration": "07/2017 - 09/2019",
+      "achievements": [
+        {
+          "description": "Delivered iOS and Android loyalty apps from 0→1",
+          "metrics": ["300K MAU", "$20M mobile payment volume in 3 months"],
+          "tags": ["mobile", "loyalty", "payments"]
+        },
+        {
+          "description": "Launched peets.com redesign",
+          "metrics": ["12% conversion improvement", "10% subscription increase", "$800K over target"],
+          "tags": ["e-commerce", "conversion", "revenue"]
+        },
+        {
+          "description": "Led enterprise Identity Management platform implementation",
+          "metrics": ["1.5M user accounts migrated"],
+          "tags": ["platform", "migration", "identity"]
+        }
+      ]
+    },
+    {
+      "title": "Technical Product Manager",
+      "company": "Wunderman Thompson",
+      "location": "Seattle, WA",
+      "duration": "07/2013 - 07/2017",
+      "achievements": []
+    },
+    {
+      "title": "Technical Cofounder",
+      "company": "Beander",
+      "location": "Seattle, WA",
+      "duration": "05/2014 - 12/2016",
+      "achievements": [
+        {
+          "description": "Two-sided marketplace for green coffee",
+          "metrics": ["3 major importers", "100+ roasters", "Successful exit 2016"],
+          "tags": ["entrepreneurship", "marketplace", "exit"]
+        }
+      ]
+    },
+    {
+      "title": "Associate Product Manager",
+      "company": "Wunderman Thompson",
+      "location": "Seattle, WA",
+      "duration": "07/2011 - 06/2013",
+      "achievements": []
+    }
+  ],
+  "skills": {
+    "product_strategy": [
+      "End-to-end product lifecycle management",
+      "Market analysis",
+      "Product launch",
+      "Optimization and scale"
+    ],
+    "ai_ml": [
+      "ML-powered automation",
+      "Predictive modeling",
+      "Human-in-loop workflows",
+      "AI adoption strategy",
+      "Claude Code/Cursor",
+      "LLM implementation"
+    ],
+    "technical": [
+      "SQL proficiency",
+      "API design",
+      "System integration",
+      "Platform architecture",
+      "IoT product development"
+    ],
+    "domain": [
+      "Fintech compliance",
+      "Insurance operations",
+      "Multi-state regulatory frameworks",
+      "Automated compliance systems",
+      "Risk assessment",
+      "PEO entities"
+    ],
+    "analytics": [
+      "A/B testing",
+      "Funnel analysis",
+      "Business intelligence",
+      "Predictive analytics",
+      "Looker",
+      "Amplitude",
+      "Mixpanel",
+      "Tableau"
+    ],
+    "leadership": [
+      "Cross-functional collaboration",
+      "Stakeholder management",
+      "Team coaching",
+      "Vendor management",
+      "Executive communication"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Masters, Information Systems",
+      "institution": "University of Cincinnati, College of Business",
+      "years": "2009 - 2011"
+    },
+    {
+      "degree": "Bachelor's, Computer Science",
+      "institution": "University of Mumbai",
+      "years": "2005 - 2009"
+    }
+  ],
+  "key_metrics": {
+    "revenue_impact": ["$5M new revenue", "$4M incremental retail", "$20M mobile payments", "$800K over target"],
+    "efficiency_gains": ["85% workload reduction", "90% overhead reduction", "60% CX call reduction", "95% contact reduction"],
+    "scale_achieved": ["92% account migration", "300K MAU", "1.5M users", "450+ employees", "72 stores"],
+    "accuracy_rates": ["92% ML model accuracy", ">99% compliance rate"],
+    "time_savings": ["14 to 3 days resolution", "20 hours/quarter saved"]
+  },
+  "ai_experience": {
+    "models_built": ["ML-powered underwriting model with 92% accuracy"],
+    "tools_used": ["Claude Code", "Cursor", "No-code AI tools"],
+    "initiatives_led": ["AI adoption champion at Justworks", "LLM content discoverability", "Training PMs on AI-assisted coding"],
+    "design_patterns": ["Human-in-loop workflows", "Automated risk assessment", "Predictive modeling"]
+  },
+  "unique_value_props": {
+    "for_ai_pm_role": [
+      "Hands-on experience building and deploying ML models in production",
+      "Proven track record in regulated environments (fintech, insurance)",
+      "10+ years of product management with strong technical foundation",
+      "Experience scaling products from 0→1 and optimizing existing platforms",
+      "Champion of AI adoption with practical implementation experience",
+      "Strong quantitative impact: $29M+ in revenue generation/optimization"
+    ]
+  }
+}
