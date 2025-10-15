@@ -16,6 +16,9 @@ Model Context Protocol (MCP) lets LLMs talk to external systems. I built a serve
 git clone https://github.com/RishiA/rishi-resume-mcp.git
 cd rishi-resume-mcp
 python quickstart.py  # Working demo in 12 seconds
+
+# For interactive testing:
+python test_server.py  # Direct function testing
 ```
 
 ## What This Actually Does
